@@ -8,7 +8,7 @@
 
 body {
     font-family: 'pixel', monospace;
-    background-color: #999;
+    background-color: #333;
     padding: 0;
     margin: 0;
 }
@@ -20,7 +20,7 @@ main {
     height: 100vh;
 }
 
-#mesh {
+#grid {
     display: flex;
     cursor: crosshair;
     flex-direction: row;
@@ -31,15 +31,15 @@ main {
 }
 
 .active {
-    color: #0008;
+    color: #fff8;
 }
 
 .idle {
-    color: #0005;
+    color: #fff5;
 }
 
 .title {
-    color: #000C
+    color: #fffC
 }
 
 .locked {
@@ -47,6 +47,7 @@ main {
     -moz-user-select: none; /* Firefox */
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
+    cursor: default;
 }
 
 nav {
@@ -56,7 +57,7 @@ nav {
     width: 160px;
 }
 
-.separator {
+.divider {
     height: 30px;
 }
 
@@ -79,22 +80,22 @@ nav {
     margin: 0;
     width: 3px;
     height: 3px;
-    background-color: #aaa;
+    background-color: #0002;
 }
 
-span[data-level = '0'] {background-color: #0000;}
-span[data-level = '1'] {background-color: #0001;}
-span[data-level = '2'] {background-color: #0002;}
-span[data-level = '3'] {background-color: #0003;}
-span[data-level = '4'] {background-color: #0004;}
-span[data-level = '5'] {background-color: #0005;}
-span[data-level = '6'] {background-color: #0006;}
-span[data-level = '7'] {background-color: #0007;}
-span[data-level = '8'] {background-color: #0008;}
-span[data-level = '9'] {background-color: #0009;}
-span[data-level = '10'] {background-color: #000A;}
-span[data-level = '11'] {background-color: #000B;}
-span[data-level = '12'] {background-color: #000C;}
-span[data-level = '13'] {background-color: #000D;}
-span[data-level = '14'] {background-color: #000E;}
-span[data-level = '15'] {background-color: #000F;}
+span[data-level = '0'] {background-color: #fff0;}
+span[data-level = '1'] {background-color: #fff1;}
+span[data-level = '2'] {background-color: #fff2;}
+span[data-level = '3'] {background-color: #fff3;}
+span[data-level = '4'] {background-color: #fff4;}
+span[data-level = '5'] {background-color: #fff5;}
+span[data-level = '6'] {background-color: #fff6;}
+span[data-level = '7'] {background-color: #fff7;}
+span[data-level = '8'] {background-color: #fff8;}
+span[data-level = '9'] {background-color: #fff9;}
+span[data-level = '10'] {background-color: #fffA;}
+span[data-level = '11'] {background-color: #fffB;}
+span[data-level = '12'] {background-color: #fffC;}
+span[data-level = '13'] {background-color: #fffD;}
+span[data-level = '14'] {background-color: #fffE;}
+span[data-level = '15'] {background-color: #fffF;}

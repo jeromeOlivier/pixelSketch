@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'pixel';
+    src: url('font/pixeltandysoft-0rjg-webfont.woff2') format('woff2'),
+    url('font/pixeltandysoft-0rjg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'pixel', monospace;
+    background-color: #999;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+#grid {
+    display: flex;
+    cursor: crosshair;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.active {
+    color: #0008;
+}
+
+.idle {
+    color: #0005;
+}
+
+.title {
+    color: #000C
+}
+
+.locked {
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    cursor: default;
+}
+
+nav {
+    display: block;
+    padding: 1rem;
+    white-space: nowrap;
+    width: 160px;
+}
+
+.divider {
+    height: 30px;
+}
+
+.button {
+    cursor: pointer;
+    padding-top: .25rem;
+}
+
+.pixel {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 3px;
+    height: 3px;
+}
+
+.border {
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 3px;
+    height: 3px;
+    background-color: #fff2;
+}
+
+span[data-level = '0'] {background-color: #0000;}
+span[data-level = '1'] {background-color: #0001;}
+span[data-level = '2'] {background-color: #0002;}
+span[data-level = '3'] {background-color: #0003;}
+span[data-level = '4'] {background-color: #0004;}
+span[data-level = '5'] {background-color: #0005;}
+span[data-level = '6'] {background-color: #0006;}
+span[data-level = '7'] {background-color: #0007;}
+span[data-level = '8'] {background-color: #0008;}
+span[data-level = '9'] {background-color: #0009;}
+span[data-level = '10'] {background-color: #000A;}
+span[data-level = '11'] {background-color: #000B;}
+span[data-level = '12'] {background-color: #000C;}
+span[data-level = '13'] {background-color: #000D;}
+span[data-level = '14'] {background-color: #000E;}
+span[data-level = '15'] {background-color: #000F;}
