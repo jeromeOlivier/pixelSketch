@@ -2,7 +2,7 @@ import { initializeGrid } from './interface.js';
 
 let drawErase = 1; // drawErase 1 to draw and -1 to erase
 let pressure = 11; // three pressure levels 1, 4 and 11
-export let gridSize = 3; // exported to use in drawing grid size
+export let gridSize = 9; // exported to use in drawing grid size
 let invert = true;
 
 // event when draw button is clicked
