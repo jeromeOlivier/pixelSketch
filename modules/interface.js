@@ -68,13 +68,13 @@ function initializeMenu() {
   menu.appendChild(eraseButtonDiv);
   // pressure toggles three levels in events module (default is low)
   const pressureButtonDiv = document.createElement('div');
-  pressureButtonDiv.textContent = 'Pressure: low';
+  pressureButtonDiv.textContent = 'Pressure: high';
   pressureButtonDiv.id = 'pressure';
   pressureButtonDiv.className = 'idle button locked';
   menu.appendChild(pressureButtonDiv);
   // pixel size toggles three sizes (3x, 6x, 9x)
   const pixelSizeButtonDiv = document.createElement('div');
-  pixelSizeButtonDiv.textContent = 'Pixels: 3x';
+  pixelSizeButtonDiv.textContent = 'Pixels: 9x';
   pixelSizeButtonDiv.id = 'size';
   pixelSizeButtonDiv.className = 'idle button locked';
   menu.appendChild(pixelSizeButtonDiv);
